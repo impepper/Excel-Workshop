@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="zh-TW">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<meta charset="utf-8">
+<title>Excel 投資決策輔助工具設計及製作</title>
+<style type="text/css">
+#mainContent {
+	font-family: SimHei,Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #E3F0FB;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #F0E020;
+	padding: 5px;
+	background-color: #F8F094;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #663300;
+	width: 75px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+html {
+    font-family: "Microsoft YaHei",simhei;
+}
+
+h2 {
+    font-family: simhei;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<!--<div id="mainContent">-->
+<!--<p id="helloText">?</p>-->
+<!--<button id="clickButton" class="buttonStyle">click me</button>-->
+<!--</div>-->
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, world!";
+}
+</script>
+<br />
+	<h1 align="center">Excel 投資決策輔助工具設計及製作</h1>
+	<h2>第一天</h2>
+	<ul>
+        <li>法人買賣超工具</li>
+        	<ul>
+        		<li><a href="files/1-1.xlsm">基本檔案</a>（基本工作表，不含公式）</li>
+        		<!--<li><a href="done_/1.xlsm">完成檔案</a>（不包含巨集）</li>-->
+        	</ul>
+    </ul>
+	<!--<h2>第二天</h2>-->
+	<!--<ul>-->
+ <!--       <li>盤後資料記錄表</li>-->
+ <!--       	<ul>-->
+ <!--       		<li><a href="files/1-1.xlsm">基本檔案</a>（基本工作表，已建立網路來源連結，不含公式）</li>-->
+ <!--       		<li><a href="done_/2.xlsm">完成檔案</a>（不包含巨集）</li>-->
+ <!--       	</ul>-->
+ <!--   </ul>-->
+	<!--<h2>第三天</h2>-->
+	<!--<ul>-->
+ <!--       <li>強勢股排行榜（上市部分）</li>-->
+ <!--       	<ul>-->
+        		<!--<li><a href="files/1-1.xlsm">基本檔案</a>（基本工作表，已建立好各類股的個股工作表並建立個股的DDE連結 for XQ操盤高手）</li>-->
+        		<!--<li><a href="done_/3.xlsm">完成檔案</a>（不包含巨集）</li>-->
+ <!--       	</ul>-->
+ <!--   </ul>   -->
+<br />
+
+</body>
+</html>
